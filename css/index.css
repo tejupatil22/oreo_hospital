@@ -1,0 +1,76 @@
+.bgimg{
+    background-image: url("/img/slider1.jpg");
+    width: 100%;
+    background-size: cover;
+    height: fit-content;
+    
+}
+
+
+/* main{
+    background-image: url("/img/slider1.jpg");
+    width: 100%;
+    height: 500px;
+    position: relative;
+} */
+.intro{
+    h4{font-weight: 200;}
+    h1{font-weight: 400;}
+    p {font-weight: 100;}
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    button{ 
+        color: white;
+        border-radius: 20px;
+        background-color:#f96332;
+        border:#f96332;
+        height: 40px;
+        width: 100px;
+        
+
+    }
+
+}
+.whychoose{
+    position: relative;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    opacity: .8;
+    img{
+        position: absolute;
+        left: 60%;
+        top: 20%;
+         height: 50%;
+        width: 35%;
+         }
+
+         h1{
+            color: gray;
+            position:absolute;
+            top:20%;
+            left: 10%;
+           }
+       
+    h2{
+        font-weight: 200;
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 35%;
+    }
+    p{ font-weight: 100;
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 60%;
+  } 
+    span{ color: skyblue;}
+    
+    
+}
+.oreo>img{
+    height: 100px;
+    width: 100px;
+}
