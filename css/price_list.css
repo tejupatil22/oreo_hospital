@@ -1,0 +1,48 @@
+span{
+    font: 26px;
+}
+h2{
+    color: #757575;
+    font: 26px;
+}
+.men{
+    padding: 25px;
+    font-size: 22px;
+    background-color: rgb(174, 245, 222);
+}
+.womens{
+    padding: 25px;
+    font-size: 22px;
+    background-color: rgb(232, 185, 193);
+}
+.kids{
+    padding: 25px;
+    font-size: 22px;
+    background-color: rgba(81, 78, 78, 0.112);
+}
+li{
+    font: 11px;
+}
+
+button{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+main{
+    position: relative;
+    background-image: url("/img/pL_Gallery.jpg");
+    width: 100%;
+    height: 300px;
+    
+}
+
+main{
+    h3{
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        font-weight: 400;
+    }
+}
