@@ -13,25 +13,7 @@
     height: 500px;
     position: relative;
 } */
-.intro{
-    h4{font-weight: 200;}
-    h1{font-weight: 400;}
-    p {font-weight: 100;}
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    button{ 
-        color: white;
-        border-radius: 20px;
-        background-color:#f96332;
-        border:#f96332;
-        height: 40px;
-        width: 100px;
-        
 
-    }
-
-}
 .whychoose{
     position: relative;
     background-color: black;
