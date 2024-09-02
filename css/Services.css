@@ -1,0 +1,21 @@
+.imagec1{
+    background-image: url("img/Medicine.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.ours{
+    text-align: center;
+    color: rgba(18, 1, 1, 0.932);  
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    height: 500px;
+    width: 300%;
+}
+
