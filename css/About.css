@@ -1,0 +1,62 @@
+.imagec1{
+    background-image: url("img/A1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+
+.imagec2{
+    background-image: url("img/A1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -15%;
+    
+}
+
+.ours{
+    text-align: center;
+    color: rgba(18, 1, 1, 0.932);  
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    
+    width: 300%;
+}
+
+.container{
+    width: 350px;
+    box-shadow: 0px 15px 15px rgba(33, 11, 11, 0.3)
+}
+
+.img{
+    margin-left: 50px;
+    
+    
+}
+
+.img1{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+
+.tag{
+    background-color: rgb(114, 159, 161);
+}
+
+.tag2{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    font-size: 200;
+}
