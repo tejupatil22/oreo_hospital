@@ -51,7 +51,8 @@
 
 
 .tag{
-    background-color: rgb(114, 159, 161);
+    background-color: rgb(15, 15, 15);
+    
 }
 
 .tag2{
@@ -59,4 +60,143 @@
     line-height: 24px;
     color: white;
     font-size: 200;
+}
+.img3 h2{
+    color: rgb(222, 54, 54)
+}
+.img3 p{
+    color: whitesmoke;
+} 
+
+.top{
+    background-color: #a890d3;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 10px;
+    
+}
+.top .text-centre{
+    color: white;
+
+}
+.text-centre{
+    text-align: center;
+    
+}
+.mob{
+    width: 100%;
+    background: #a890d3;
+}
+.our_location{
+    padding: 50px;
+}
+.container{
+    max-width: 1140px;
+}
+
+.our_location{
+    padding-top: 50px;
+
+}
+.section-title h2 span{
+    color: #01d8da;
+}
+
+.section-title h2{
+    font-size:26px;
+    line-height: 30px;
+    color: #757575;
+     position: relative;
+}
+
+.section-title p{
+    color: #616161;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translate(0);
+}
+
+.row {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-12 {
+    
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+ #world-map-markers {
+    margin-bottom: 25px;
+}
+.jvectormap-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    touch-action: none;
+}
+.jvectormap-zoomin {
+    top: 10px;
+}
+
+.xl-turquoise{
+    background: #bdf3f5;
+    text-align: center;
+    padding: 18px;
+}
+
+.xl-khaki{
+    background: #f9f1d8 ;
+    text-align: center;
+    padding: 18px;
+}
+
+.xl-parpl{
+    background: #efebf4;
+    text-align: center;
+    padding: 18px;
+}
+
+.xl-salmon{
+    background: #ffd4c3;
+    text-align: center;
+    padding: 18px;
+}
+.xl-blue{
+    background: #e0eff5;
+    text-align: center;
+    padding: 18px;
+}
+.xl-slategray{
+    background: #eceeef ;
+    text-align: center;
+    padding: 18px;
+    }
+
+    
+.jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {
+    position: absolute;
+    left: 10px;
+    border-radius: 3px;
+    background: #292929;
+    padding: 3px;
+    color: white;
+    cursor: pointer;
+    line-height: 10px;
+    text-align: center;
+    box-sizing: content-box;
+}
+.jvectormap-legend-cnt {
+    position: absolute;
 }

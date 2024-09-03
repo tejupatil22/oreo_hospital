@@ -1,16 +1,16 @@
-.imagec1{
-    background-image: url("img/Medicine.jpg") ;
+.inner-banner{
+    background-image: url("img/med.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
-    width: 100%;
+    height: 300px;
+    width: 120%;
     display: flex;
     justify-content: center;
     align-items: center; 
     
 }
 
-.ours{
+.imagec2{
     text-align: center;
     color: rgba(18, 1, 1, 0.932);  
     font-size: 3em;
@@ -18,4 +18,41 @@
     height: 500px;
     width: 300%;
 }
+.col-12{
+    font-size: 26px;
+    line-height: 30px;
+    color: #757575;
+}
 
+.section{
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+.section-title h2 span{
+    color: #01d8da;
+}
+
+.tag2{
+    font-size: 16px;
+    line-height: 24px;
+    color: whitesmoke;
+    font-size: 200;
+}
+
+.tag{
+    background-color: rgb(15, 15, 15);
+    
+}
+.box1{
+    height: 141px;
+    width: 135px;
+    background-color: #a890d3;
+    color: white;
+}
+
+.box2{
+    height: 150px;
+    width: 135px;
+    background-color:#01d8da;
+    color: white;
+}
