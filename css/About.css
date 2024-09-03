@@ -35,7 +35,8 @@
 
 .container{
     width: 350px;
-    box-shadow: 0px 15px 15px rgba(33, 11, 11, 0.3)
+    box-shadow: 0px 15px 15px rgba(33, 11, 11, 0.3);
+    
 }
 
 .img{
@@ -52,6 +53,7 @@
 
 .tag{
     background-color: rgb(15, 15, 15);
+    width: 100%;
     
 }
 
@@ -73,6 +75,7 @@
     padding-bottom: 50px;
     padding-top: 30px;
     margin-top: 10px;
+    width: 100%;
     
 }
 .top .text-centre{
@@ -199,4 +202,9 @@
 }
 .jvectormap-legend-cnt {
     position: absolute;
+}
+
+iframe{
+    height: 300px;
+    width: 100%;
 }
