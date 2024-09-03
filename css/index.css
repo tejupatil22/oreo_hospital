@@ -7,14 +7,8 @@
 }
 
 
-/* main{
-    background-image: url("/img/slider1.jpg");
-    width: 100%;
-    height: 500px;
-    position: relative;
-} */
 
-.whychoose{
+/* .whychoose{
     position: relative;
     background-color: black;
     height: 600px;
@@ -34,6 +28,7 @@
             top:20%;
             left: 10%;
            }
+       span{ color: skyblue;}
        
     h2{
         font-weight: 200;
@@ -48,10 +43,10 @@
         left: 10%;
         top: 60%;
   } 
-    span{ color: skyblue;}
     
     
-}
+    
+} */
 .oreo>img{
     height: 90px;
     width: 90px;
@@ -60,3 +55,41 @@
    display: flexbox;
 }
 
+/* .homeservice{
+    background-color:#f0f4f4; */
+
+img {
+    max-width: 100%;
+    border-radius: 1px;
+
+    vertical-align: middle;
+    border-style: none;
+}
+
+  *,::after, ::before {
+    box-sizing: border-box;
+}
+ *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    /* unicode-bidi: isolate; */
+
+} 
+.section{ 
+
+    a{
+       
+        text-decoration: none;
+        color: #f96332;
+    }
+    
+}
+
+.container{
+    h2{
+        padding-top: 15px;
+    }
+}
