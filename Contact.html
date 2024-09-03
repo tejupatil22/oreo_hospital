@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2  mb-lg-0">
             <li style="padding: 10px;" class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
 
             <li style="padding: 10px;" class="nav-item">
@@ -55,7 +55,7 @@
               </ul>
             </li>
             <li style="padding: 10px;" class="nav-item">
-              <a class="nav-link " aria-current="page" href="Services.html">Contact Us</a>
+              <a class="nav-link active" aria-current="page" href="Services.html">Contact Us</a>
             </li>
           </ul>
           <div>
@@ -80,10 +80,15 @@
   </header>
 
   <div style="border: none;" class="card bg-dark text-black">
-    <img src="/img/contactus.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay" >
+    <img src="img/contactus.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay d-flex align-items-center">
       <!-- <h3 class="card-text text-start">Oreo Hospital</h3> -->
-      <h1 class="card-text "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact Us</h1>
+       <div class="container ">
+        <div class="row ">
+          <h3 class="align-self-center " style="font-size: 40px; font-weight: 300;"> Oreo <h1><b>Contact Us</b></h1></h3>
+        </div>
+       </div>
+      
     </div>
   </div>
   <!-- <main>
@@ -98,8 +103,8 @@
   </h4>
   <div class="row">
     <div class="col-md-8">   
-      <div class="appoint">
-        <form class=" appoint row gy-2 gx-3 align-items-center  0 .5rem 1rem rgba($black, .15)">
+      <div class="appoin">
+        <form class=" appoin row gy-2 gx-3 align-items-center  0 .5rem 1rem rgba($black, .15)">
           <div style="padding: 20px; font-size: 20px;" class="col-auto col-md-12">
              Make an Appointment
           </div>
@@ -198,6 +203,47 @@
         </div>
       </div>
     </div>
+    <!-- appoinment section -->
+    <div class="appoint m-2">
+      <form class=" appoint row gy-2 gx-3 align-items-center  0 .5rem 1rem rgba($black, .15)">
+        <div style="padding: 20px; font-size: 20px;" class="col-auto col-md-2 ">
+          <div class="wrapper">
+           <h3>For Doctor Visit</h3> 
+          </div> 
+        </div>
+        <div class="col-auto col-md-2">
+          <input type="text" class="form-control" id="autoSizingInput" placeholder="Full Name">
+        </div>
+        <div class="col-auto col-md-2">
+          <div class="input-group">
+            <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="Contact No.">
+          </div> 
+        </div>
+          <div class="col-auto col-md-2">
+          <div class="input-group">
+              <input type="date" class="form-control" id="autoSizingInputGroup" placeholder="Date" value = "2024-01-01">
+          </div>
+        </div>
+        <div class="col-auto col-md-2">
+          <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+          <select class="form-select" id="autoSizingSelect">
+            <option selected>Tretment</option>
+            <option value="1">PULMONOLOGY</option>
+            <option value="2">CARDIOLOGY</option>
+            <option value="3">GYNECOLOGY</option>
+            <option value="3">NEUROLOGY</option>
+            <option value="3">UROLOGY</option>
+            <option value="3">DENTAL</option>
+          </select>
+        </div>
+        
+        <div class="col-auto col-md-2">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+
+    </div>
+
     <!-- footer start -->
 
     <footer class="text-center text-lg-start text-black" style="background-color: #e5e9ed">
@@ -244,7 +290,7 @@
                   <i class="fa fa-location-arrow " aria-hidden="true"></i></i>&nbsp; Oreo Hospital,Nr.
                   Alka Talkies, Pune-411030 <br>
                   <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Oreo@Hospitals.com <br>
-                  <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; (123) 0200 12345 & 7890 <br>
+                  <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp;  (+91) 90222 45587 <br>
                   <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Mon-Friday: 9am to 6pm <br>
                   <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Sat-Sunday: 10am to 4pm <br>
                 </ul>

@@ -103,3 +103,53 @@ div {
     background: #d8d8db
     
 }
+.wrapper {
+    h3 {
+  color: #fff;
+  /* font-size: 9; */
+  /* text-transform: uppercase; */
+  /* font-weight: 700; */
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to left,#095fab 10%, #25abe8 50%, #c4c9c4 30% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* direction: left; */
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+}
+
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+.slider_form {
+    position: relative;
+    padding: 20px 5px;
+    background: #c2c1c1;
+    border-radius: .25rem;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+  unicode-bidi: isolate;
+}
+
+.booknow{
+    margin-top: -140px;   
+}
