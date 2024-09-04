@@ -10,6 +10,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/price_list.css">
+  <link rel="htmlsheet" href="button.html">
 </head>
 
 
@@ -101,7 +102,7 @@
   </div>
   <div class="row text-center">
     <div class="col-md-4 border border-secondary pb-2 pt-2">
-      <h5>MENS PACKAGE</h5>
+      <h5>MENS PACKAGE</h5><hr>
       <p>Just need initial support</p>
       <h3 class="men">INR 2999/year</h3>
       <ul class="list-unsigned" style="list-style-type:none">
@@ -111,11 +112,108 @@
         <li><strong>Blood</strong>Grouping and RH Factor</li>
         <li>Creatinine, Serum</li>
       </ul>
-      <button>Get this plan</button>
+      <div class="container mt-5">
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#planModal">
+            Get This Plan
+        </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="planModal" tabindex="-1" aria-labelledby="planModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="planModalLabel">Get This Plan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
+                        <!-- Personal Information Section -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <!-- Plan Selection Section -->
+                        <div class="mb-3">
+                            <label for="plan" class="form-label">Select Plan</label>
+                            <select class="form-select" id="plan" required>
+                                <option selected disabled value="">Choose a plan...</option>
+                                <option value="man">Mens Plan</option>
+                                <option value="women">Womens Plan</option>
+                                <option value="kids">Kids Plan</option>
+                            </select>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div class="mb-3">
+                            <label for="paymentMethod" class="form-label">Payment Method</label>
+                            <select class="form-select" id="paymentMethod" required>
+                                <option selected disabled value="">Choose a payment method...</option>
+                                <option value="creditCard">Credit Card</option>
+                                <option value="debitCard">Debit Card</option>
+                                
+                            </select>
+                        </div>
+
+                        <!-- Payment Details Section (conditionally shown based on payment method) -->
+                        <div id="paymentDetails" class="mt-3">
+                            <!-- Credit Card Details -->
+                            <div id="creditCardDetails" style="display: none;">
+                                <div class="mb-3">
+                                    <label for="cardNumber" class="form-label">Card Number</label>
+                                    <input type="text" class="form-control" id="c+ardNumber" placeholder="1234 5678 9012 3456">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardExpiry" class="form-label">Expiration Date</label>
+                                    <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardCVC" class="form-label">CVC</label>
+                                    <input type="text" class="form-control" id="cardCVC" placeholder="CVC">
+                                </div>
+                            </div>
+
+                            <!-- Debit Card Details -->
+                            <div id="debitCardDetails" style="display: none;">
+                              <div class="mb-3">
+                                  <label for="cardNumber" class="form-label">Card Number</label>
+                                  <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="cardExpiry" class="form-label">Expiration Date</label>
+                                  <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="cardCVC" class="form-label">CVC</label>
+                                  <input type="text" class="form-control" id="cardCVC" placeholder="CVC">
+                              </div>
+                          </div>
+
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <div class="col-md-4 border border-secondary pb-2 pt-2">
-      <h5>WOMENS PACKAGE</h5>
+      <h5>WOMENS PACKAGE</h5><hr>
       <p>Just need initial support</p>
       <h3 class="womens">INR 3999/year</h3>
       <ul class="list-unsigned" style="list-style-type:none">
@@ -125,11 +223,109 @@
         <li><strong>Blood</strong>Grouping and RH Factor</li>
         <li>Creatinine, Serum</li>
       </ul>
-      <button>Get this plan</button>
+      <div class="container mt-5">
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#planModal">
+            Get This Plan
+        </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="planModal" tabindex="-1" aria-labelledby="planModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="planModalLabel">Get This Plan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
+                        <!-- Personal Information Section -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <!-- Plan Selection Section -->
+                        <div class="mb-3">
+                            <label for="plan" class="form-label">Select Plan</label>
+                            <select class="form-select" id="plan" required>
+                                <option selected disabled value="">Choose a plan...</option>
+                                <option value="basic">Mens Plan</option>
+                                <option value="standard">Womens Plan</option>
+                                <option value="premium">Kids Plan</option>
+                            </select>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div class="mb-3">
+                            <label for="paymentMethod" class="form-label">Payment Method</label>
+                            <select class="form-select" id="paymentMethod" required>
+                                <option selected disabled value="">Choose a payment method...</option>
+                                <option value="creditCard">Credit Card</option>
+                                <option value="debitCard">Debit Card</option>
+                                
+                            </select>
+                        </div>
+
+                        <!-- Payment Details Section (conditionally shown based on payment method) -->
+                        <div id="paymentDetails" class="mt-3">
+                            <!-- Credit Card Details -->
+                            <div id="creditCardDetails" style="display: none;">
+                                <div class="mb-3">
+                                    <label for="cardNumber" class="form-label">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardExpiry" class="form-label">Expiration Date</label>
+                                    <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardCVC" class="form-label">CVC</label>
+                                    <input type="text" class="form-control" id="cardCVC" placeholder="CVC">
+                                </div>
+                            </div>
+
+                            <!-- Debit Card Details -->
+                            <div id="debitCardDetails" style="display: none;">
+                              <div class="mb-3">
+                                  <label for="cardNumber" class="form-label">Card Number</label>
+                                  <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="cardExpiry" class="form-label">Expiration Date</label>
+                                  <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="cardCVC" class="form-label">CVC</label>
+                                  <input type="text" class="form-control" id="cardCVC" placeholder="CVC">
+                              </div>
+                          </div>
+
+                           
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <div class="col-md-4 border border-secondary pb-2 pt-2">
-      <h5>KIDS PACKAGE</h5>
+      <h5>KIDS PACKAGE</h5><hr>
       <p>Just need initial support</p>
       <h3 class="kids">INR 4999/year</h3>
       <ul class="list-unsigned" style="list-style-type:none">
@@ -139,7 +335,106 @@
         <li><strong>Blood</strong>Grouping and RH Factor</li>
         <li>Creatinine, Serum</li>
       </ul>
-      <button>Get this plan</button>
+      <div class="container mt-5">
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#planModal">
+            Get This Plan
+        </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="planModal" tabindex="-1" aria-labelledby="planModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="planModalLabel">Get This Plan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <form>
+                        <!-- Personal Information Section -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <!-- Plan Selection Section -->
+                        <div class="mb-3">
+                            <label for="plan" class="form-label">Select Plan</label>
+                            <select class="form-select" id="plan" required>
+                                <option selected disabled value="">Choose a plan...</option>
+                                <option value="basic">Mens Plan</option>
+                                <option value="standard">Womens Plan</option>
+                                <option value="premium">Kids Plan</option>
+                            </select>
+                        </div>
+
+                        <!-- Payment Method Section -->
+                        <div class="mb-3">
+                            <label for="paymentMethod" class="form-label">Payment Method</label>
+                            <select class="form-select" id="paymentMethod" required>
+                                <option selected disabled value="">Choose a payment method...</option>
+                                <option value="creditCard">Credit Card</option>
+                                <option value="debitCard">Debit Card</option>
+                                
+                            </select>
+                        </div>
+
+                        <!-- Payment Details Section (conditionally shown based on payment method) -->
+                        <div id="paymentDetails" class="mt-3">
+                            <!-- Credit Card Details -->
+                            <div id="creditCardDetails" style="display: none;">
+                                <div class="mb-3">
+                                    <label for="cardNumber" class="form-label">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardExpiry" class="form-label">Expiration Date</label>
+                                    <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cardCVC" class="form-label">CVC</label>
+                                    <input type="text" class="form-control" id="cardCVC" placeholder="CVC">
+                                </div>
+                            </div>
+
+                            <!-- Debit Card Details -->
+                            <div id="debitCardDetails" style="display: none;">
+                              <div class="mb-3">
+                                  <label for="cardNumber" class="form-label">Card Number</label>
+                                  <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="cardExpiry" class="form-label">Expiration Date</label>
+                                  <input type="text" class="form-control" id="cardExpiry" placeholder="MM/YY">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="cardCVC" class="form-label">CVC</label>
+                                  <input type="text" class="form-control" id="cardCVC" placeholder="CVC">
+                              </div>
+                          </div>
+
+                            
+                          
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 
