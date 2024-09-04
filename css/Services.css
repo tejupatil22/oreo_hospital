@@ -1,58 +1,37 @@
-.inner-banner{
-    background-image: url("img/med.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 120%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+.appoint{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -40px;
+    /* padding-bottom: 2px; */
+    z-index: 10;
+    background: #d8d8db
     
 }
 
-.imagec2{
-    text-align: center;
-    color: rgba(18, 1, 1, 0.932);  
-    font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
-    height: 500px;
-    width: 300%;
+.wrapper {
+    h3 {
+  color: #fff;
+  /* font-size: 9; */
+  /* text-transform: uppercase; */
+  /* font-weight: 700; */
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #c4c9c4 30% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
 }
-.col-12{
-    font-size: 26px;
-    line-height: 30px;
-    color: #757575;
-}
-
-.section{
-    padding-bottom: 100px;
-    margin-top: 100px;
-}
-.section-title h2 span{
-    color: #01d8da;
-}
-
-.tag2{
-    font-size: 16px;
-    line-height: 24px;
-    color: whitesmoke;
-    font-size: 200;
 }
 
-.tag{
-    background-color: rgb(15, 15, 15);
-    
-}
-.box1{
-    height: 141px;
-    width: 135px;
-    background-color: #a890d3;
-    color: white;
-}
-
-.box2{
-    height: 150px;
-    width: 135px;
-    background-color:#01d8da;
-    color: white;
-}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
