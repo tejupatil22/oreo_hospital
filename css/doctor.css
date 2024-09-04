@@ -45,3 +45,8 @@ main{
       background-position: 200% center;
     }
   }
+
+  .img{
+    @media (max-width: 575.98px) { height: 100px;}
+   
+  }

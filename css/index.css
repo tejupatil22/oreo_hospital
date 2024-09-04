@@ -151,6 +151,7 @@ div {
 }
 
 .booknow{
+    position: relative;
     margin-top: -140px; 
     h3 {
         color: #fff;
@@ -171,4 +172,8 @@ div {
         animation: textclip 2s linear infinite;
         display: inline-block;
       }  
+      @media (max-width: 575.98px) { margin-top: 0px; }
+}
+.homeheading{
+    @media (max-width: 575.98px) { font-size: x-small;}
 }

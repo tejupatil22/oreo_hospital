@@ -1,210 +1,51 @@
-.imagec1{
-    background-image: url("img/A1.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    
-
-}
-
-.imagec2{
-    background-image: url("img/A1.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: -15%;
-    
-}
-
-.ours{
-    text-align: center;
-    color: rgba(18, 1, 1, 0.932);  
-    font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
-    
-    width: 300%;
-}
-
-.container{
-    width: 350px;
-    box-shadow: 0px 15px 15px rgba(33, 11, 11, 0.3);
-    
-}
-
-.img{
-    margin-left: 50px;
-    
-    
-}
-
-.img1{
-    margin-top: 15%;
-    margin-left: 5%;
-}
-
-
-.tag{
-    background-color: rgb(15, 15, 15);
-    width: 100%;
-    
-}
-
-.tag2{
-    font-size: 16px;
-    line-height: 24px;
-    color: white;
-    font-size: 200;
-}
-.img3 h2{
-    color: rgb(222, 54, 54)
-}
-.img3 p{
-    color: whitesmoke;
-} 
-
-.top{
-    background-color: #a890d3;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    margin-top: 10px;
-    width: 100%;
-    
-}
-.top .text-centre{
-    color: white;
-
-}
-.text-centre{
-    text-align: center;
-    
-}
-.mob{
-    width: 100%;
-    background: #a890d3;
-}
-.our_location{
-    padding: 50px;
-}
-.container{
-    max-width: 1140px;
-}
-
-.our_location{
-    padding-top: 50px;
-
-}
-.section-title h2 span{
-    color: #01d8da;
-}
-
-.section-title h2{
-    font-size:26px;
-    line-height: 30px;
-    color: #757575;
-     position: relative;
-}
-
-.section-title p{
-    color: #616161;
-}
-.justify-content-between{
-    justify-content: space-between;
-}
-
-[data-aos^=fade][data-aos^=fade].aos-animate {
-    opacity: 1;
-    transform: translate(0);
-}
-
-.row {
-    
-    display: flex;
-    
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.col-lg-12 {
-    
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
- #world-map-markers {
-    margin-bottom: 25px;
-}
-.jvectormap-container {
-    width: 100%;
-    height: 100%;
+.appoint{
     position: relative;
-    overflow: hidden;
-    touch-action: none;
-}
-.jvectormap-zoomin {
-    top: 10px;
-}
-
-.xl-turquoise{
-    background: #bdf3f5;
-    text-align: center;
-    padding: 18px;
-}
-
-.xl-khaki{
-    background: #f9f1d8 ;
-    text-align: center;
-    padding: 18px;
-}
-
-.xl-parpl{
-    background: #efebf4;
-    text-align: center;
-    padding: 18px;
-}
-
-.xl-salmon{
-    background: #ffd4c3;
-    text-align: center;
-    padding: 18px;
-}
-.xl-blue{
-    background: #e0eff5;
-    text-align: center;
-    padding: 18px;
-}
-.xl-slategray{
-    background: #eceeef ;
-    text-align: center;
-    padding: 18px;
-    }
-
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -40px;
+    /* padding-bottom: 2px; */
+    z-index: 10;
+    background: #d8d8db
     
-.jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {
-    position: absolute;
-    left: 10px;
-    border-radius: 3px;
-    background: #292929;
-    padding: 3px;
-    color: white;
-    cursor: pointer;
-    line-height: 10px;
-    text-align: center;
-    box-sizing: content-box;
-}
-.jvectormap-legend-cnt {
-    position: absolute;
 }
 
-iframe{
-    height: 300px;
-    width: 100%;
+.wrapper {
+    h3 {
+  color: #fff;
+  /* font-size: 9; */
+  /* text-transform: uppercase; */
+  /* font-weight: 700; */
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #c4c9c4 30% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
 }
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .tag2{
+    background-color: #d8d8db;
+  }
+
+  .box{
+    background-color:#e1dbec;
+    height: 100px;
+  }
+  
+  .img{
+    @media (max-width: 575.98px) { height: 100px;}
+   
+  }
