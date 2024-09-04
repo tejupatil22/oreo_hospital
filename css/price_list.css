@@ -25,10 +25,14 @@ li{
 }
 
 button{
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+   color: #fff;
+   background-color:#0d6efd;
+   border-color:#0d6efd ;
+   padding: 2px;
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
 }
 
 main{
@@ -57,7 +61,7 @@ main{
   /* text-transform: uppercase; */
   /* font-weight: 700; */
   font-family: "Josefin Sans", sans-serif;
-  background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #c4c9c4 30% );
+  background: linear-gradient(to right,#095fab 10%, #095fab 50%, #c4c9c4 30% );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
