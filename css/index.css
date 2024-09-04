@@ -1,10 +1,10 @@
-.bgimg{
+/* .bgimg{
     background-image: url("/img/slider1.jpg");
     width: 100%;
     background-size: cover;
     height: fit-content;
     
-}
+} */
 
 
 
@@ -110,16 +110,15 @@ div {
   /* text-transform: uppercase; */
   /* font-weight: 700; */
   font-family: "Josefin Sans", sans-serif;
-  background: linear-gradient(to left,#095fab 10%, #25abe8 50%, #c4c9c4 30% );
+  background: linear-gradient(to left,#095fab 10%, #25abe8 50%, #c4c9c4 30%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  /* text-fill-color: transparent; */
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* direction: left; */
   animation: textclip 2s linear infinite;
   display: inline-block;
 }
@@ -130,6 +129,7 @@ to {
   background-position: 200% center;
 }
 }
+
 .slider_form {
     position: relative;
     padding: 20px 5px;
@@ -151,5 +151,24 @@ div {
 }
 
 .booknow{
-    margin-top: -140px;   
+    margin-top: -140px; 
+    h3 {
+        color: #fff;
+        /* font-size: 9; */
+        /* text-transform: uppercase; */
+        /* font-weight: 700; */
+        font-family: "Josefin Sans", sans-serif;
+        background: linear-gradient(to right,#9309ab 10%, #f9f6f9 50%, #1042f8 30% );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        /* text-fill-color: transparent; */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* direction: left; */
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+      }  
 }
