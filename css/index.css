@@ -1,52 +1,4 @@
-/* .bgimg{
-    background-image: url("/img/slider1.jpg");
-    width: 100%;
-    background-size: cover;
-    height: fit-content;
-    
-} */
 
-
-
-/* .whychoose{
-    position: relative;
-    background-color: black;
-    height: 600px;
-    width: 100%;
-    opacity: .8;
-    img{
-        position: absolute;
-        left: 60%;
-        top: 20%;
-         height: 50%;
-        width: 35%;
-         }
-
-         h1{
-            color: gray;
-            position:absolute;
-            top:20%;
-            left: 10%;
-           }
-       span{ color: skyblue;}
-       
-    h2{
-        font-weight: 200;
-        color: white;
-        position: absolute;
-        left: 10%;
-        top: 35%;
-    }
-    p{ font-weight: 100;
-        color: white;
-        position: absolute;
-        left: 10%;
-        top: 60%;
-  } 
-    
-    
-    
-} */
 .oreo>img{
     height: 90px;
     width: 90px;
@@ -55,8 +7,7 @@
    display: flexbox;
 }
 
-/* .homeservice{
-    background-color:#f0f4f4; */
+
 
 img {
     max-width: 100%;
@@ -110,7 +61,7 @@ div {
   /* text-transform: uppercase; */
   /* font-weight: 700; */
   font-family: "Josefin Sans", sans-serif;
-  background: linear-gradient(to left,#095fab 10%, #25abe8 50%, #c4c9c4 30%);
+  background: linear-gradient(to left,#262a2e 50%, #35a3f1 30%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -119,16 +70,20 @@ div {
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  animation: textclipReverse 1s normal infinite;
   display: inline-block;
 }
 }
 
-@keyframes textclip {
-to {
-  background-position: 200% center;
+@keyframes textclipReverse {
+    0% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
 }
-}
+
 
 .slider_form {
     position: relative;
@@ -153,27 +108,9 @@ div {
 .booknow{
     position: relative;
     margin-top: -140px; 
-    h3 {
-        color: #fff;
-        /* font-size: 9; */
-        /* text-transform: uppercase; */
-        /* font-weight: 700; */
-        font-family: "Josefin Sans", sans-serif;
-        background: linear-gradient(to right,#9309ab 10%, #f9f6f9 50%, #1042f8 30% );
-        background-size: auto auto;
-        background-clip: border-box;
-        background-size: 200% auto;
-        color: #fff;
-        background-clip: text;
-        /* text-fill-color: transparent; */
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        /* direction: left; */
-        animation: textclip 2s linear infinite;
-        display: inline-block;
-      }  
+     
       @media (max-width: 575.98px) { margin-top: 0px; }
 }
-.homeheading{
+/* .homeheading{
     @media (max-width: 575.98px) { font-size: x-small;}
-}
+} */
