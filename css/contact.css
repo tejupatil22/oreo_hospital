@@ -34,6 +34,13 @@ animation: textclipReverse 1s normal infinite;
 display: inline-block;
 }
 }
+.ch{
+  font-size: 40px; font-weight: 300;
+  @media (max-width: 575.98px) {
+      font-size: 10px;
+      font-weight: 100;
+  }
+}
 
 @keyframes textclipReverse {
   0% {
