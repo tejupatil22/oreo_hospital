@@ -41,7 +41,7 @@ display: inline-block;
   .img{
     @media (max-width: 575.98px) { height: 100px;}
    
-  }
-  .tag2{
+    }
+  /* .tag2{
     background-color: #d8d8db;
-  }
+  }   */
