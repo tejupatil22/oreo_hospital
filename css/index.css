@@ -48,7 +48,7 @@ div {
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: -40px;
+    margin-bottom: -30px;
     /* padding-bottom: 2px; */
     z-index: 10;
     background: #d8d8db
@@ -112,17 +112,20 @@ div {
       @media (max-width: 575.98px) { margin-top: 0px; }
 }
 
-/* .homeheading{
-    @media (max-width: 575.98px) { font-size: x-small;}
-} */
-.hh{
-    font-size: 40px; font-weight: 300;
-    h5{
-        font-size: 50px; font-weight: 400;
-    }
 
+.hh{
+
+    font-size: 40px; font-weight: 300;
+    
     @media (max-width: 575.98px) {
         font-size: 20px;
         font-weight: 100;
     }
+
   }
+.mh{
+    @media (max-width: 575.98px) {
+        font-size: 15px;
+       
+    }
+}
