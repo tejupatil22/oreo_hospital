@@ -43,6 +43,7 @@ display: inline-block;
       background-position: 0% 0%;
   }
 }
+
   .img{
     @media (max-width: 575.98px) { height: 100px;}
    
