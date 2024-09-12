@@ -47,7 +47,7 @@ display: inline-block;
     height: 100px;
   }
   
-  .img{
-    @media (max-width: 575.98px) { height: 100px;}
+.img{
+  @media (max-width: 575.98px) { height: 120px;}
    
-  }
+}
